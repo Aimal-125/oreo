@@ -1,0 +1,135 @@
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+}
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body {
+	background: url(images/pattern-background-desktop.svg) no-repeat center hsl(225, 100%, 94%);
+	background-position-y: 30%;
+}
+.container {
+	width: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	background: white;
+	box-shadow: 1px 1px 5px 0px rgba(0, 0, 255, 0.5);
+}
+.div1 {
+	height: 150px;
+}
+.div1 img {
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.div2 {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+.hd {
+	padding: 5px;
+	color: white;
+	text-shadow: 1px 1px 3px black;
+}
+.ex {
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	text-shadow: 1px 1px 3px blue;
+}
+.para {
+	text-align: center;
+	color: darkgray;
+}
+.div3 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 15px;
+	background: hsl(225, 100%, 98%);
+}
+.idiv1 {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.plan {
+	color: black;
+	font-weight: bold;
+}
+.price {
+	color: gray;
+}
+.change {
+	border: none;
+	background: hsl(225, 100%, 98%);
+}
+.change a {
+	color: rgba(100, 0, 255, 1.0);
+}
+.change:hover a {
+	color: black;
+}
+.span1 {
+	width: 40px;
+	height: 40px;
+}
+.plandiv {
+	display: flex;
+	flex-direction: column;
+}
+.paydiv {
+	text-align: center;
+	width: 100%;
+}
+.paymentbtn {
+	width: 100%;
+	padding: 10px;
+	background: hsl(245, 75%, 52%);
+	border: none;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	box-shadow: 0px 5px 5px 0px hsla(245, 75%, 52%, 1);
+}
+.paymentbtn:hover {
+	background: rgba(100, 0, 255, 1.0);
+}
+.candiv {
+	text-align: center;
+	width: 100%;
+}
+.cancelbtn {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	color: grey;
+	font-weight: bold;
+	background: white;
+	cursor: pointer;
+}
+.cancelbtn:hover {
+	background: rgba(255, 0, 0, 0.8);
+	color: white;
+}
+
+@media screen and (max-height: 500px) {
+	body {
+		padding: 1rem;
+	}
+	.container {
+		position: initial;
+		transform: none;
+		margin: 0 auto;
+	}
+}
