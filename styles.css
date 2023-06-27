@@ -5,7 +5,7 @@
 * {
 	box-sizing: border-box;
 	font-family: sans-serif;
-	transition: all 0.3;
+	transition: all 0.3s;
 }
 body {
 	background: url(images/pattern-background-desktop.svg) no-repeat center hsl(225, 100%, 94%);
@@ -118,6 +118,7 @@ body {
 	font-weight: bold;
 	background: white;
 	cursor: pointer;
+	border-radius: 10px;
 }
 .cancelbtn:hover {
 	background: rgba(255, 0, 0, 0.8);
