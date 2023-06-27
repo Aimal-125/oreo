@@ -5,6 +5,7 @@
 * {
 	box-sizing: border-box;
 	font-family: sans-serif;
+	transition: all 0.3;
 }
 body {
 	background: url(images/pattern-background-desktop.svg) no-repeat center hsl(225, 100%, 94%);
